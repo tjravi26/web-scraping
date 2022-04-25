@@ -9,7 +9,7 @@
 ### BeautifulSoup
 
 - A module used for web scraping purposes to pull the data out of HTML and XML files in a hierarchical and more readable manner.
-- Must be imported from the module named _'bs4'_.
+- Must be imported from the module named _bs4_.
 - It's not necessary to have data in HTML format.
   - Can use data directly from a URL using _requests_ module.
 
