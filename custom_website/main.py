@@ -1,7 +1,7 @@
-from turtle import home
 from bs4 import BeautifulSoup
+import requests
 
-with open('home.html', 'r') as html_file:
+with open('custom_website/home.html', 'r') as html_file:
     content = html_file.read()
     soup = BeautifulSoup(content, 'lxml')
     # print(soup.prettify())  # prints the html data in a readable format.
